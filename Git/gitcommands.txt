@@ -1,0 +1,168 @@
+
+=======
+
+#Copy remote repository to your machine
+git clone https://github.com/gbrough/westportlanddatascienceclub /Users/gmoney1/GitHub/westportlanddatascienceclub/
+
+#Initialize Git directory
+git init /Users/gmoney1/GitHub/westportlanddatascienceclub/
+
+#Switch to working directory
+cd /Users/gmoney1/GitHub/westportlanddatascienceclub/
+
+
+#Show current branch
+git branch
+
+#Switch to existing branch
+git checkout -B gitcommands
+
+#Create a branch
+git checkout -b gitcommands
+
+
+#Pull from remote server
+git pull https://github.com/gbrough/westportlanddatascienceclub
+
+#Fetch changes from remote server
+git pull https://github.com/gbrough/westportlanddatascienceclub
+=======
+#Create Edit code
+vi gitcommands.tx
+
+
+#Add to index - New file can be tracked
+git add .
+
+#Commit file changes
+git commit -a
+
+# Publish/Sync files to remote server master branch
+git push
+
+#Delete file
+rm #filename
+
+#Update index
+git add .
+
+# commit changes
+git commit -a -m #’note’
+
+#Publish repository
+git push
+
+#Create a new branch
+git checkout -b #branchname
+
+#Switch to existing branch
+git checkout -B #branchname
+
+
+#Create Edit code
+vi gitcommands.txt
+
+#Show the working tree status
+git status
+
+#Show various types of objects
+git show
+
+#Show commit logs
+git log
+
+#Add to index - New file can be tracked
+git add .
+
+# commit changes
+git commit -a -m 'note’
+
+#Publish branch to remote server
+git push --set-upstream origin gitcommands
+=======
+#show changes
+git diff
+
+
+=======
+#Publish branch to remote server
+git push --set-upstream origin #banchname
+
+#Merge branch with master
+git merge gitcommands
+
+
+#Create a subbranch
+git checkout -b #subbranch_of_branchname
+=======
+
+
+
+#Publish subbranch
+git push --set-upstream origin #subbranch_of_branchname
+
+
+#Extra commands
+
+
+=======
+=======
+
+#Status of commits, if branch is current, changes tracked
+git status
+
+#Latest log of changes
+git show
+
+
+#Add to index - New file can be tracked
+git add .
+
+#Commit file changes
+git commit -a -m 'note'
+
+#Publish repository
+git push --set-upstream origin gitcommands
+=======
+
+#Show current branch
+git branch
+=======
+
+
+#Switch back to master
+git checkout master
+
+#Merge branch with master
+git merge --no-ff gitcommands
+
+
+#Publish origin to remote server
+git push origin master
+
+Extras
+
+#Create a subbranch
+git checkout -b subbranch_of_gitcommands
+
+#Publish subbranch
+git push --set-upstream origin subbranch_of_gitcommands
+
+#Delete branch
+git branch -d gitcommands
+=======
+git push origin master
+
+#Delete branch
+git branch -d gitcommands
+
+#Create a subbranch
+git checkout -b subgitcommands
+
+#Publish subbranch
+git push --set-upstream origin #subbranch_of_branchname
+=======
+#Fetch changes from remote server
+
+git pull https://github.com/gbrough/westportlanddatascienceclub
+

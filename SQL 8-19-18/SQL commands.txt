@@ -1,0 +1,56 @@
+/* SQL Comment sections
+Author Garrett Broughton
+show database information*/
+
+SELECT NAME FROM v$database
+SELECT INSTANCE_NAME FROM v$instance;
+SELECT * FROM v$version;
+
+--basic queries and setup
+show user
+SELECT systimestamp, 'Hello World', 5*5 from dual;
+show all
+set wrap off;
+set linesize 100;
+
+--show tables
+SELECT * FROM user_tables;
+
+--Create a table
+CREATE TABLE members(
+user_id NUMBER PRIMARY KEY,
+first_name VARCHAR2(100) NOT NULL, 
+last_name VARCHAR2(100) NOT NULL
+);
+ 
+DESC members;
+
+--Change table column 
+ALTER TABLE members
+  MODIFY (first_name VARCHAR2(50),
+          last_name VARCHAR2(50));
+
+--Insert into tables
+INSERT INTO members
+VALUES('001', 'Garrett', 'Broughton');
+
+--update table contents
+Update members
+   SET first_name = 'Joseph'
+   WHERE user_id = 001;
+
+--delete data
+DELETE FROM members
+WHERE USER_ID = 005;
+
+--show contents
+SELECT * FROM members;
+
+--Create index
+CREATE INDEX members_first_name_index
+ON members (first_name);
+
+--delete table and all data
+DROP TABLE members;
+
+

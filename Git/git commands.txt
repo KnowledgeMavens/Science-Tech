@@ -1,0 +1,70 @@
+#Copy remote repository to your machine
+git clone https://github.com/gbrough/westportlanddatascienceclub /Users/gmoney1/GitHub/westportlanddatascienceclub/
+
+#Initialize Git directory
+git init /Users/gmoney1/GitHub/westportlanddatascienceclub/
+
+#Switch to working directory
+
+
+#Create Edit code
+vi #filename
+
+#Add to index - New file can be tracked
+git add .
+
+#Commit file changes
+git commit -a
+
+# Publish/Sync files to remote server master branch
+git push
+
+#Delete file
+rm #filename
+
+#Update index
+git add .
+
+# commit changes
+git commit -a -m #’note’
+
+#Publish repository
+git push
+
+#Create a new branch
+git checkout -b #branchname
+
+#Switch to existing branch
+git checkout -B #branchname
+
+#Edit code
+vi git commands.txt
+
+#show changes
+git diff
+
+#Publish branch to remote server
+git push --set-upstream origin #banchname
+
+#Merge branch with master
+git merge gitcommands
+
+#Create a subbranch
+git checkout -b #subbranch_of_branchname
+
+#Publish subbranch
+git push --set-upstream origin #subbranch_of_branchname
+
+
+
+#Show current branch
+git branch
+
+#Switch back to master branch
+git checkout master
+
+#Delete branch
+git branch -d #branchname
+
+#Fetch changes from remote server
+git pull https://github.com/gbrough/westportlanddatascienceclub

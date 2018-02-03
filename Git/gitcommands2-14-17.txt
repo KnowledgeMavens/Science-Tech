@@ -1,0 +1,62 @@
+2-14-17
+#Copy remote repository to your machine
+git clone https://github.com/gbrough/westportlanddatascienceclub /Users/gmoney1/GitHub/westportlanddatascienceclub/
+
+#Initialize Git directory
+git init /Users/gmoney1/GitHub/westportlanddatascienceclub/
+
+#Pull from remote server
+git pull https://github.com/gbrough/westportlanddatascienceclub
+
+#Switch to working directory
+cd /Users/gmoney1/GitHub/westportlanddatascienceclub/
+
+#Show current branch
+git branch
+
+#Switch to existing branch
+git checkout -B gitcommands
+
+#Create a branch
+git checkout -b gitcommands
+
+#Create Edit code
+vi gitcommands.txt
+
+#Show the working tree status
+git status
+
+#Show various types of objects
+git show
+
+#Show commit logs
+git log
+
+#Add to index - New file can be tracked
+git add .
+
+# commit changes
+git commit -a -m 'note’
+
+#Publish branch to remote server
+git push --set-upstream origin gitcommands
+
+#Switch back to master
+git checkout master
+
+#Merge branch with master
+git merge --no-ff gitcommands
+
+#Publish origin to remote server
+git push origin gitcommands
+
+Extras
+
+#Create a subbranch
+git checkout -b subbranch_of_gitcommands
+
+#Publish subbranch
+git push --set-upstream origin subbranch_of_gitcommands
+
+#Delete branch
+git branch -d gitcommands

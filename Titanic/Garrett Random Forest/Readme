@@ -1,0 +1,45 @@
+First a joke
+
+One day there was a fire in a wastebasket in the office of the Dean of Sciences. In rushed a physicist, a chemist, and a statistician. The physicist immediately starts to work on how much energy would have to be removed from the fire to stop the combustion.
+The chemist works on which reagent would have to be added to the fire to prevent oxidation. While they are doing this, the statistician is setting fires to all the other wastebaskets in the office.
+“What are you doing?” the others demand. The statistician replies, “Well, to solve the problem, you obviously need a larger sample size.”
+
+Mike Bernico  - Great Learning Videos
+
+What is Data Science and what formula should I follow? Applying Science to Data.
+Hypothesis - Experiment 
+Data -  Find and explore data
+Model - Predictive Machine Learning  
+Data Product - Visualization - Predictive Model
+
+What is Machine Learning? Statistical Inference
+History of Data - Create a rule
+Supervised - Labeled data
+Regression
+Classification
+Unsupervised 
+Clustering -Group outliers
+Recommender - What you like or what others like you like
+
+What Tools do I need?
+Virtual Machine - AWS
+Anaconda & Jupyter Notebook
+GitHub
+Knime
+
+Where should I start to build my own model?
+Kaggle Data set - Titanic
+Models 
+Linear 
+Logistic regression
+Decision Tree
+Random Forest
+Submit model to Kaggle
+
+Python code - Random Forest
+Import data with Python Pandas
+Describe Data
+EDA - Exploratory Data Analysis
+Random Forest
+
+

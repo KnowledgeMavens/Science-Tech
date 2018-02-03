@@ -1,0 +1,7 @@
+show user
+show all
+set wrap off;
+set linesize 100;
+select * from user_tables;
+desc customers;
+select * from customers;
