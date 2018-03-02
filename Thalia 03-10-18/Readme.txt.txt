@@ -1,0 +1,6 @@
+Thalia
+https://www.youtube.com/watch?v=5HbB1ZCozaE
+
+Do you want to learn music theory, composing, playing an instrument, or singing? The first half of our meeting we'll share our knowledge on a music topic. The second half we'll use our creativity to think about new topics. Then we'll vote on the winning topic. The winner will win the most creative person of the week. Join us for a great time learning your passion.
+
+Bring your creative spirit! No equipment needed. We're a sharing, creative, and enthusiastic group.
