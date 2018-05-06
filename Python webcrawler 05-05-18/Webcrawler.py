@@ -4,12 +4,12 @@ from bs4 import BeautifulSoup
 def trade_spider(max_pages):
   page = 1
   while page <= max_pages:
-    url = 'https://freeknowledgemission.org/' + str(page)
+    url = 'https://freeknowledgemission.wixsite.com/home/single-post/2017/' + str(page)
     source code = requests.get(url)
     plain_text = source_code.text
     soup = BeautifulSoup(plain_text)
     for link in soup.findAll('a', {'class': 'item-name'}):
-      href = "https://freeknowledmission.org" + link.get('href')
+      href = "https://freeknowledgemission.wixsite.com/home/single-post/2017/" + link.get('href')
       title = link.string
       # print(href)
       # printg(title)
@@ -23,7 +23,7 @@ def get_single_item_data(item_url):
   for item_name in soup.findAll('div', {'class': 'i-name'}):
     print(item_name.string)
     for link in soup.findAll('a')
-    href = "https://freeknowledgemission.org/" + link.get('href')
+    href = "https://freeknowledgemission.wixsite.com/home/single-post/2017/" + link.get('href')
     print(href)
 
 trade_spider(3)
