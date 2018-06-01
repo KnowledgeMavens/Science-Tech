@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+
+	function start() {
+		doFirst();
+		doSecond();
+	}
+
+	start();
+
+	// Second Example
+	function doFirst() {
+		document.write("Who's on first?");
+		doSecond();
+	}
+
+	function doSecond() {
+		document.write("Who's on second?");
+		doFirst();
+	}
+
+	doFirst();
+
+	</script>
+
+
+</body>
+</html>
