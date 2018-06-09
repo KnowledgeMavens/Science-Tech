@@ -8,8 +8,9 @@ Coding is highly demanded skill and music is highly desirable in life.
 How did I find Scribbletunes?
 
 Found SFNode talk on youtube
-Slides from Walmik’s talk 
+https://www.youtube.com/watch?v=iwuZzp_ZnLo&t=578s
 Searched github for code
+https://github.com/walmik/scribbletune
 
 What does Scribbletunes do?
 
