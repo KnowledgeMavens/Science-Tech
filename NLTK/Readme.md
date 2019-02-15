@@ -14,27 +14,26 @@
 Before we can begin plotting we need to understand NLTK or Natural Language Toolkit in Python. The first 15 lessons are how we can process words to prepare for Machine Learning.
 
 ### Python Code in this project
- - 01 Tokeninizing - Split text in to sentences or words
+ - 01 Tokenizing - Split text into sentences or words
  - 02 Stop Words - Filler words not as useful in data analysis (and, of, the)
- - 03 Stemming - Removes suffixs or prefixes to it's root word
- - 04 Speech Taggins
- - 05 Chunking
- - 06 Chinking
- - 07 Named Enitiy
- - 08 Lemmatizing
- - 09 Corpora
- - 10 Wordnet
- - 11 Text Classifier
- - 12 Words as Features
- - 13 Naive Bayes
- - 14 Pickle
- - 15 Scikit 
- - 16 Vote
- - 17 Vias
- - 18 Training
- - 19 Sentiment
- - 20 Twitter App
- - 21 Graphing
-
+ - 03 Stemming - Removes suffixes or prefixes to its root word
+ - 04 Speech Tagging - Labels each word with its part of speech (verb, adverb, noun, etc)
+ - 05 Chunking - Group words and graphing them
+ - 06 Chinking - Remove words that you don't want from Chunking
+ - 07 Named Entity - Classify words in categories
+ - 08 Lemmatizing - Improved version of stemming. Can also group root words for comparison.
+ - 09 Corpora - Large text such as journals, dictionaries, encyclopedias, etc
+ - 10 Wordnet - Large online database you can use to grab words to process
+ - 11 Text Classifier - 
+ - 12 Words as Features - 
+ - 13 Naive Bayes - Basic algorithm that search group of text(positive) and filters for a word to compare against the second group of text(negative).
+ - 14 Pickle - Filter groups of text (Speeds up Machine Learning)
+ - 15 Scikit - Short lesson on importing and using libraries such as Linear Regression, SVM, SGDA
+ - 16 Vote -
+ - 17 Bias -
+ - 18 Training -
+ - 19 Sentiment -
+ - 20 Twitter App - Build your Twitter app and get your API keys
+ - 21 Graphing - Plot a keyword.
 
 
