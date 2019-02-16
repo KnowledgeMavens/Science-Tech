@@ -20,19 +20,19 @@ Before we can begin plotting we need to understand NLTK or Natural Language Tool
  - 04 Speech Tagging - Labels each word with its part of speech (verb, adverb, noun, etc)
  - 05 Chunking - Group words and graphing them
  - 06 Chinking - Remove words that you don't want from Chunking
- - 07 Named Entity - Classify words in categories
- - 08 Lemmatizing - Improved version of stemming. Can also group root words for comparison.
+ - 07 Named Entity - Similar to chunking, categorizes words into predefined classes.
+ - 08 Lemmatizing - Improved method of stemming. Can also group root words for comparison.
  - 09 Corpora - Large text such as journals, dictionaries, encyclopedias, etc
  - 10 Wordnet - Large online database you can use to grab words to process
- - 11 Text Classifier - 
+ - 11 Text Classifier - Classifies Sentiment or positive/negative
  - 12 Words as Features - 
  - 13 Naive Bayes - Basic algorithm that search group of text(positive) and filters for a word to compare against the second group of text(negative).
  - 14 Pickle - Filter groups of text (Speeds up Machine Learning)
  - 15 Scikit - Short lesson on importing and using libraries such as Linear Regression, SVM, SGDA
- - 16 Vote -
- - 17 Bias -
- - 18 Training -
- - 19 Sentiment -
+ - 16 Vote - Custom classifier that picks to best classifier based on the best results
+ - 17 Bias - For example, you might have 100 percent accuracy in negative and 50 percent positive giving you an average of 75 percent.
+ - 18 Training - Imports a new dataset that is similar to Twitter text. In the previous case text was too short cause all results to be negative. One example, in the negative reviews, the sentences are longer give more negative words. In positive reviews, the sentences are shorter, giving less positive words.
+ - 19 Sentiment - Test your own positive and negative review, then run sentiment on it.
  - 20 Twitter App - Build your Twitter app and get your API keys
  - 21 Graphing - Plot a keyword.
 
