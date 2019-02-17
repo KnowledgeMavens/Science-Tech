@@ -62,11 +62,7 @@ for p in short_neg.split('\n'):
         if w[1][0] in allowed_word_types:
             all_words.append(w[0].lower())
 
-featuresets = [(find_features(rev), category) for (rev, category) in documents]
 
-save_featuresets = open("pickled_algos/featuresets.pickle","wb")
-pickle.dump(featuresets, save_featuresets)
-save_featuresets.close()
 
 
 save_documents = open("pickled_algos/documents.pickle","wb")
@@ -157,3 +153,9 @@ print("SGDClassifier accuracy percent:",nltk.classify.accuracy(SGDC_classifier, 
 save_classifier = open("pickled_algos/SGDC_classifier5k.pickle","wb")
 pickle.dump(SGDC_classifier, save_classifier)
 save_classifier.close()
+
+def sentiment(text):
+    feats = find_features(text)
+    return voted_classifier.classify(feats)
+
+

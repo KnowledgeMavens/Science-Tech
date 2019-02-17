@@ -1,6 +1,8 @@
 from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize
 
+#Stemming - Removes suffixes or prefixes to its root word
+
 ps = PorterStemmer()
 
 example_words = ["python", "pythoner","pythoning","pythoned","pythonly"]

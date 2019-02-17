@@ -11,7 +11,7 @@ from sklearn.svm import SVC, LinearSVC, NuSVC
 from nltk.classify import ClassifierI
 from statistics import mode
 
-
+# What is the average of positive vs average of negative. For example, you might have 80 percent accuracy in negative and 60 percent positive giving you an average of 70 percent.
 class VoteClassifier(ClassifierI):
     def __init__(self, *classifiers):
         self._classifiers = classifiers

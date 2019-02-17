@@ -1,5 +1,7 @@
 from nltk.corpus import wordnet
 
+#Wordnet - Large online database you can use to grab words to process
+
 syns = wordnet.synsets("program")
 
 #synset

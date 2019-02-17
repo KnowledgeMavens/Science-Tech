@@ -2,6 +2,8 @@ import nltk
 import random
 from nltk.corpus import movie_reviews
 
+#Creates words as features. In case marks words to True or False that way they can be trained.
+
 documents = [(list(movie_reviews.words(fileid)), category)
 			for category in movie_reviews.categories()
 			for fileid in movie_reviews.fileids(category)]

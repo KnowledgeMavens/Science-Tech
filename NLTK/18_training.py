@@ -13,6 +13,7 @@ from statistics import mode
 
 from nltk.tokenize import word_tokenize
 
+#For example, you might have 100 percent accuracy in negative and 50 percent positive giving you an average of 75 percent.
 
 class VoteClassifier(ClassifierI):
     def __init__(self, *classifiers):

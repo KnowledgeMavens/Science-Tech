@@ -2,6 +2,8 @@ import nltk
 import random
 from nltk.corpus import movie_reviews
 
+#Basic algorithm that search group of text(positive) and filters for a word to compare against the second group of text(negative)
+
 documents = [(list(movie_reviews.words(fileid)), category)
 			for category in movie_reviews.categories()
 			for fileid in movie_reviews.fileids(category)]

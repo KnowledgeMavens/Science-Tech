@@ -8,6 +8,9 @@ from sklearn.naive_bayes import MultinomialNB, GaussianNB, BernoulliNB
 from sklearn.linear_model import LogisticRegression, SGDClassifier
 from sklearn.svm import SVC, LinearSVC, NuSVC
 
+
+#Short lesson on importing and using libraries MultinomiaNB, GaussianNB, BernoulliNB, Linear Regression, SGDClassifer, SVC, LincearSVC, NuSVC
+
 documents = [(list(movie_reviews.words(fileid)), category)
 			for category in movie_reviews.categories()
 			for fileid in movie_reviews.fileids(category)]

@@ -3,6 +3,8 @@ import random
 from nltk.corpus import movie_reviews
 import pickle
 
+#Saved previously trained algorithms or python objects (Machine Learning runs faster)
+
 documents = [(list(movie_reviews.words(fileid)), category)
 			for category in movie_reviews.categories()
 			for fileid in movie_reviews.fileids(category)]

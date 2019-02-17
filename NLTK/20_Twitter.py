@@ -4,7 +4,12 @@ from tweepy.streaming import StreamListener
 import json
 import sentiment_mod as s
 
+
 #consumer key, consumer secret, access token, access secret.
+ckey=""
+csecret=""
+atoken=""
+asecret=""
 
 
 
@@ -32,4 +37,4 @@ auth = OAuthHandler(ckey, csecret)
 auth.set_access_token(atoken, asecret)
 
 twitterStream = Stream(auth, listener())
-twitterStream.filter(track=["happy"])
+twitterStream.filter(track=["trump"])

@@ -110,9 +110,16 @@ voted_classifier = VoteClassifier(
                                   BernoulliNB_classifier,
                                   LogisticRegression_classifier)
 
-
-
-
 def sentiment(text):
     feats = find_features(text)
     return voted_classifier.classify(feats),voted_classifier.confidence(feats)
+
+#SAVE ME AS sentiment_mod.py
+
+
+
+
+
+
+
+

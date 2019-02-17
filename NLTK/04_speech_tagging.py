@@ -2,6 +2,8 @@ import nltk
 from nltk.corpus import names
 from nltk.tokenize import PunktSentenceTokenizer
 
+#Speech Tagging - Labels each word with its part of speech (verb, adverb, noun, etc)
+
 train_text = names.raw("female.txt")
 sample_text = names.raw("male.txt")
 
