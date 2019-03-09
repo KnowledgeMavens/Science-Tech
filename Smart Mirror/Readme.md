@@ -1,11 +1,6 @@
 # Smart Mirror Links
 
 ### 1. [Part List](https://docs.google.com/spreadsheets/d/1h5qvkXEVZOfNgKXR6rZw97czoZRrBaVosR97XMHS_1o/edit?usp=sharing)
-
- - Frame Hardware
- - Raspberry Pi
- - Monitor
- - Cables
  
  | Parts | Cost | Link|
  |-------|------|-----|
