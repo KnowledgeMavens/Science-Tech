@@ -7,7 +7,7 @@
  - Monitor
  - Cables
 
-### 2. [Raspberry Pi Operating System - AIY Project - Based on Raspberrian(https://github.com/google/aiyprojects-raspbian/releases)
+### 2. [Raspberry Pi Operating System - AIY Project - Based on Raspberrian](https://github.com/google/aiyprojects-raspbian/releases)
 
  
 ### 3. [Raspberry Pi 3D Printed Mount](https://www.thingiverse.com/thing:1523416)
