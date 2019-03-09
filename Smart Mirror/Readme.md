@@ -25,7 +25,7 @@
 
 ### 2. [Magic Mirror 3rd Party Modules](https://github.com/MichMich/MagicMirror/wiki/3rd-party-modules)
 
-### 2. [Youtube casting](https://github.com/kevinatown/MMM-Screencast)
+### 3. [Youtube casting](https://github.com/kevinatown/MMM-Screencast)
 
 ### Optional
  - Google Voice
