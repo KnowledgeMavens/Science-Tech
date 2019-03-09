@@ -46,15 +46,15 @@
 
 ### Demo
 
-###  [Magic Mirror Software](https://github.com/MichMich/MagicMirror)
+  - ###  [Magic Mirror Software](https://github.com/MichMich/MagicMirror)
 
-###  [Magic Mirror 3rd Party Modules](https://github.com/MichMich/MagicMirror/wiki/3rd-party-modules)
+  - ###  [Magic Mirror 3rd Party Modules](https://github.com/MichMich/MagicMirror/wiki/3rd-party-modules)
 
-###  [Youtube casting](https://github.com/kevinatown/MMM-Screencast)
+  - ###  [Youtube casting](https://github.com/kevinatown/MMM-Screencast)
 
-### Optional
- - Google Voice
- - LEDs - Listed in part list
+  - ### Optional
+     - Google Voice
+     - LEDs - Listed in part list
 
 
 
