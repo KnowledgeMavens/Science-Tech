@@ -43,8 +43,6 @@
 ### Demo
 
 ### 1. [Magic Mirror Software](https://github.com/MichMich/MagicMirror)
- - Andrew Ng is a professor at Stanford and a leading researcher in AI
- - Takes a few weeks to absorb 
 
 ### 2. [Magic Mirror 3rd Party Modules](https://github.com/MichMich/MagicMirror/wiki/3rd-party-modules)
 
