@@ -3,7 +3,7 @@
 ### Someone who is willing to work at the same pace with similar goals.
 
 # In-person
-Meetup.com
+[Meetup](https://www.meetup.com/)
 Eventbrite.com
 Find a local Bootcamp
 Local Usergroups/tech calendar
