@@ -21,7 +21,7 @@
     Data Science - Python
 
 ### How much time do you want to spend learning?
-#### Try 100 days of coding challenge](https://www.100daysofcode.com/)
+#### [Try 100 days of coding challenge](https://www.100daysofcode.com/)
     How about 60 minutes a day until you reach your goal or find a job
 
 # Find some resources
