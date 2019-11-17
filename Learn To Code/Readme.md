@@ -10,7 +10,9 @@
 
 # Virtual - Find a group
 ### Slack 
-### Discord - [CodingGardenWithCJ](https://coding.garden/discord) [Sentdex](https://discord.gg/sentdex)
+### Discord 
+#### [CodingGardenWithCJ](https://coding.garden/discord) 
+#### [Sentdex](https://discord.gg/sentdex)
 ### [CodeBuddies - Collaborative video hangout](https://codebuddies.org/hangouts)
 
 # Choose a few goals together
