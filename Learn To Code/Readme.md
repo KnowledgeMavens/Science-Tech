@@ -9,7 +9,7 @@
 #### [Local Usergroups/tech calendar](http://calagator.org/)
 
 # Virtual - Find a group
-    Slack 
+#### [Slack](https://slack.com/) 
 #### [Discord - CodingGardenWithCJ](https://coding.garden/discord) 
 #### [Discord - Sentdex](https://discord.gg/sentdex)
 #### [CodeBuddies - Collaborative video hangout](https://codebuddies.org/hangouts)
