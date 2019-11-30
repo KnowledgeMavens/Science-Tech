@@ -1,14 +1,15 @@
 // if else statement
 
-// if Joe is the same age as Sam, then display "same age"
-// else if Joe is younger than Sam, then display "younger"
-// everything else will return older
+// if JavaScript is the same score as Python, then display "equal"
+// else if JavaScript is less than Python, then display "Python is better"
+// else all other scores  will return "JavaScript is better"
 
-var Joe = 22
-var Sam = 23
+//Score of favorite languages 1 to 10
+var JavaScript = 9
+var Python = -8
 
-if (Joe == Sam) {
-    console.log("same age")
-}   else if (Joe < Sam){
-        console.log("younger")
-}   else console.log("older")
+if (JavaScript == Python) 
+    console.log("equal")
+   else if (JavaScript < Python)
+        console.log("Python is better")
+    else console.log("JavaScript is better")
