@@ -1,17 +1,18 @@
- # Why do we want to ask better questions? Questions lead to better questions. Better questions lead to better decisions. Better decision making can lead to a more fulfilling life.
+ # Why do we want to ask better questions? 
+    Questions lead to better questions. Better questions lead to better decisions. Better decision making can lead to a more fulfilling life.
 
 # Effective questions can help us with
-    Overcoming social anxiety (in-person, in groups, on social media)
+    1. Overcoming social anxiety (in-person, in groups, on social media)
     Be able to talk to anyone 
-    Connect with people and establish relationships. 
-    Solve a problem more quickly - Be a curious problem-solver
+    2. Connect with people and establish relationships. 
+    3. Solve a problem more quickly - Be a curious problem-solver
     Sometimes ask the obvious question. Sometimes people are afraid to ask the obvious.
-    It’s important to ask the unknown rather than the known. Pay attention to the story and listen for gaps. If someone has stated they looked at something, form this information as a question that’s already been answered. Look 
-    Ask what’s changed in the situation.
-    Understand the world around us 
-    Learn about a topic quickly  
-    Conversations can be in the form of an interview 
-    Questions can organize our thinking around what we know and don’t know.  It helps us start with the basics and simplify. If we can think in terms of analogies, it helps us frame a relevant question.
+    4. It’s important to ask the unknown rather than the known. Pay attention to the story and listen for gaps. If someone has stated they looked at something, form this information as a question that’s already been answered. 
+    5. Ask what’s changed in the situation.
+### Understand the world around us 
+    1. Learn about a topic quickly  
+    2. Conversations can be in the form of an interview 
+    3. Questions can organize our thinking around what we know and don’t know.  It helps us start with the basics and simplify. If we can think in terms of analogies, it helps us frame a relevant question.
 
 # How do we ask better questions?
 
