@@ -52,7 +52,7 @@ Ask big questions such as
     4. What good question did I ask today
 
 
-#Resources
+# Resources
 ### [How to Ask Better Questions](https://www.youtube.com/watch?v=J8xfuCcXZu8)
 ### [The Art of Questions](https://www.youtube.com/watch?v=hZSY0PssqH0)
 ### [Ask Better Questions](https://www.youtube.com/watch?v=u6GtXjpeGl4)
