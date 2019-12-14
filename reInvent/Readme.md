@@ -10,6 +10,10 @@
 # Keynote
 #### [Andy Jassy](https://www.youtube.com/watch?v=7-31KgImGgU) 
 
+# [AWS YouTube Channel](https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg)
+
+# [AWS Slides](https://www.slideshare.net/amazonwebservices)
+
 # Sessions
 #### [Times Series GluonTS](https://github.com/awslabs/gluon-ts)
 #### [Times Series Sagemaker Stock Prediction](https://github.com/aws-samples/amazon-sagemaker-stock-prediction)
