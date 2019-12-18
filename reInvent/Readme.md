@@ -1,6 +1,6 @@
 
 # AWS re:Invent 2019
-    (https://youtu.be/GCUlP_yGGsA)
+    #### [Experience at AWS](https://youtu.be/GCUlP_yGGsA)
     In this video, I’ll be sharing my experiences at AWS re:Invent 2019. Half of this video 
     will contain content about general events such as registration, venues, parties, and 
     keynotes. In the other half of the video, I’ll share content about the classes I attended. 
