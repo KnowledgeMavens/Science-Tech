@@ -5,24 +5,13 @@
 // Condition when loop should end i.e. (i < 5;)
 // Increment expression loop goes up or down i.e. (x++)  || (x--)
 
-
-/* Example 1
+// Example 1
 for (var i = 0; i <= 6; i++) {	 
     console.log(i);
 }
-*/
-// Example 2
-var languages = [JavaScript, Python, GoLang];
-
-for (var i = 0; i < 3; i++){
-    console.log(languages[i]);
-}
-/*
-// Example 3
-var myArray = [];
-
-for (var i = 0; i <= 6; i++) {	 
-  myArray.push(i);
-console.log(myArray);
-}
-*/
+console.log(0);
+console.log(1);
+console.log(2);
+console.log(3);
+console.log(4);
+console.log(5);
