@@ -1,5 +1,5 @@
 
-# AWS re:Invent 2019
+# [AWS re:Invent 2019](https://youtu.be/GCUlP_yGGsA)
     In this video, I’ll be sharing my experiences at AWS re:Invent 2019. Half of this video 
     will contain content about general events such as registration, venues, parties, and 
     keynotes. In the other half of the video, I’ll share content about the classes I attended. 
@@ -9,6 +9,7 @@
 
 # Keynote, Slides, & Videos
 #### [Andy Jassy](https://www.youtube.com/watch?v=7-31KgImGgU) 
+#### [Slides](https://aws.amazon.com/events/events-content/?awsf.filter-series=event-series%23reinvent)
 
 #### [AWS YouTube Channel](https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg)
 
