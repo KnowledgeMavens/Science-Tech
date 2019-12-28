@@ -1,6 +1,6 @@
 // What is an array = data structure of numbers, “strings of text”, objects
 
-var numbers = [ 50,, 9, 77, 101]
+//var numbers = [ 50, 5, 9, 77, 101]
 var artists = [ "Eilish", "Cyrus", "Gaga", "Bieber"]
 //var songs = [{artist: "Eilish", song: "Bad Guy"}, {artist: "Gaga", song: "Telephone"}, {artist: "Cyrus", song:"Wreaking Ball"}]
 
@@ -14,9 +14,6 @@ var artists = [ "Eilish", "Cyrus", "Gaga", "Bieber"]
 
 //remove strings from end of array
 //artists.pop()
-
-console.log(artists.slice(1,3));
-
 
 //Add strings to beginning of array
 //artists.unshift("Bieber")
