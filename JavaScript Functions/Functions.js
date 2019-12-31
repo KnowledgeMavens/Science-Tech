@@ -14,9 +14,10 @@ yodaReply("Baby Yoda"); //argument
 
 // function with return statement
 
-function secretFormula(num1, num2) {  
-    return num1 + num2;
+function secretFormula(string1, string2) {  
+    return string1 + string2;
 }
-var result = secretFormula(7, 14)
+var result = secretFormula("Darksaber must not ", "control you")
 console.log(result);
+
 
