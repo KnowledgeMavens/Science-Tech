@@ -1,17 +1,22 @@
-// If variables are like nouns, functions are similiar to verbs
+// If variables are similiar to nouns, functions are similiar to verbs
 
-/*
-function functionExample() {
-    console.log("Hello, my name is George");
-    console.log("example text 2");
+function WhoAmI() {
+    console.log("I'm the Mandalorian. This is the way");
 }
-functionExample();
-*/
+WhoAmI();
 
 // functions with parameters and arguments
 
-function functionExample2(name) {  //parameter
-    console.log('Hello ' + name);
+function yodaReply(name) {  //parameter
+    console.log("Save the world, you must, "  + name);
 }
+yodaReply("Baby Yoda"); //argument
 
-functionExample2(George); //argument
+// function with return statement
+
+function secretFormula(num1, num2) {  
+    return num1 + num2;
+}
+var result = secretFormula(7, 14)
+console.log(result);
+
