@@ -5,6 +5,7 @@ function WhoAmI() {
 }
 WhoAmI();
 
+
 // functions with parameters and arguments
 
 function yodaReply(name) {  //parameter
