@@ -5,7 +5,7 @@ let character = {
     film: "Disney+",
     rating: [4, 3, 2],
     fullname: function () {
-        return "My name is" + " " + this.firstname + " " + this.lastname
+        return "My name is" + " " + this.firstname + " " + this.lastname 
     }
 }
 
