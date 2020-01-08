@@ -1,11 +1,12 @@
 // What is an object? stores properties i.e. Macbook
 // What is a property? attributes i.e. CPU, Memory, GPU, Storage
 // What is a method? actions i.e. email, make videos, code
-
+//---------------------------------------------------------------------
 // Example 1 - Properties 
 let laptop = "What is your favorite laptop?";
-//console.log(tablet); //Other examples .pop, .shift, .split, splice
+//console.log(laptop.length); //Other examples .pop, .shift, .split, splice
 
+//---------------------------------------------------------------------
 // Example 2 - Objects + Methods
 let macbook = {  //Object
     brand: "Apple",  //Properties
@@ -19,5 +20,6 @@ let macbook = {  //Object
 }
 //console.log(macbook.specs());
 
+//---------------------------------------------------------------------
 // Example 3 - Display mutiple properties
 console.log(macbook.brand, macbook.StorageTB[2]);
