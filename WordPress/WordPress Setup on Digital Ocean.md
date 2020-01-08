@@ -1,7 +1,8 @@
-## First choose - how do I want to make my site?  The two easiest flavors in 2019 are WordPress or Squarespace.  (Wix, IMHO, mixes the worst )
-The choice comes down to how much control you want over your content long term.  Squarespace is a good tool to just get your idea out into the world fast with very little effort which will avoid this configuration, but it makes it very hard to leave Squarespace when the Squarespace platform no longer serves your needs in the future.  WordPress is a good tool if you want more control and flexibility over your web experience.
+## First choose - how do I want to make my site?  
+The two easiest flavors in 2019 are WordPress or Squarespace.  (Wix, IMHO, mixes a challenging feature set at that lower cost point - lots of visual flexibility at the expense of SEO, smart design constraints, and data portability)
+The choice comes down to how much control you want over your content long term (data portability).  Squarespace is a good tool to just get your idea out into the world fast with very little effort which will avoid lots of configuration, but it makes it very hard to leave Squarespace when the Squarespace platform no longer serves your needs in the future.  WordPress is a good tool if you want more control and flexibility over your web experience.
 
-## Process using Namecheap and Digital Ocean
+## WordPress installation Process using Namecheap and Digital Ocean
 
 1. Purchase a Domain Name.  This can be done through a number of domain registrars.  Remember that your domain name is your permanent address and your property.  While it's a bit more work, it tends to help your cost and control of your site to NOT combine domain name registration with your hosting service.  Most Hosts that also register domain names for you make it fairly difficult to move away from them later.  This matters if you expect your site to have a longer life than 5 years, as that's the rate where web hosting technology goes through a completely new generation.  I like Namecheap, but there's lots of good domain name registrars out there, and even more ethically dubious and upselly ones like GoDaddy, Network Solutions, and Domain.com
 1. Create a Digital Ocean Account or Flywheel account.  These are two services that offer one click WordPress setup and hosting, and a barebones DO server will be $5 / month.
@@ -54,6 +55,7 @@ are important for you to save in a password manager for potential troubleshootin
 1. Install some basic plugins to get started, especially these common plugin choices to solve common issues to optimize your site: 
 
 ## Recommended Plugins
+
 Add plugins or your own selections under Plugins >> Add New
 * Akismet (Anti-spam comments)
 * Advanced Custom Fields (easily set up new content types and fields)
