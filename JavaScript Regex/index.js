@@ -2,35 +2,35 @@
 //Examples of when would you use regex? Search/replace, creating usernames, user input. 
 
 /*
-//Example 1 - find a string
-let myString = "Hello, World!";
-let myRegex = /Hello/;
-let result = myRegex.test(myString); 
-console.log(result)
-  
-.02
-*/
+//Example 1 - Easy - find a string
+let exampleString = "Hello, Universe!";
+let exampleRegex = /Hello,/;
+let output = exampleRegex.test(exampleString); 
+console.log(output)
 
-//Example 2 - Positive and Negative Lookahead
-let sampleWord = "astronaut";
-let pwRegex = /^(?=\w{6})(?=\D+\d{2})/;
-let result = pwRegex.test(sampleWord);
-console.log(result);
 
-/*
+//Example 2 - Medium - Check for conditions
+// Check password for at least 5 characters and at least one number
 
-^       Beginning of String
-?=      postive look ahead
-\w      word CharacterData
-{6}     number of occurances
-\D+     character not a digit i.e ABC
+let secret = "abcefg2";
+let secretCheck = /(\w{5})(\d)/;
+let output = secretCheck.test(secret); 
+console.log(output);
+
+
+\w      word character i.e. letters, digit, underscore
+{5}     number of characters i.e. at least 3
+()      and
 \d      digit i.e. 0-9
 
-//Example 3 - Restrict Possible Usernames
+//Example 3 - Difficult - Restrict Possible Usernames
+*/
 
 let username = "JackOfAllTrades";
 let userCheck = /^[a-z]([0-9][0-9]+|[a-z]+\d*)$/i;
-let result = userCheck.test(username);
+let output = userCheck.test(username);
+console.log(output);
+/*
 
 ^ - beginning of pattern
 [a-z] - first character is a letter
