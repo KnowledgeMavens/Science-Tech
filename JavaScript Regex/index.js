@@ -8,7 +8,7 @@ let myRegex = /Hello/;
 let result = myRegex.test(myString); 
 console.log(result)
   
-.01
+.02
 */
 
 //Example 2 - Positive and Negative Lookahead
