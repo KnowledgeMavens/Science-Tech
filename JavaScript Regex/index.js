@@ -7,13 +7,15 @@ let myString = "Hello, World!";
 let myRegex = /Hello/;
 let result = myRegex.test(myString); 
 console.log(result)
+  
+.01
 */
 
 //Example 2 - Positive and Negative Lookahead
 let sampleWord = "astronaut";
 let pwRegex = /^(?=\w{6})(?=\D+\d{2})/;
 let result = pwRegex.test(sampleWord);
-console.log(result)
+console.log(result);
 
 /*
 
