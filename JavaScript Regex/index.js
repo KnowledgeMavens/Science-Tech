@@ -17,27 +17,31 @@ let secretCheck = /(\w{5})(\d)/;
 let output = secretCheck.test(secret); 
 console.log(output);
 
-
+/*
 \w      word character i.e. letters, digit, underscore
 {5}     number of characters i.e. at least 3
 ()      and
 \d      digit i.e. 0-9
-
-//Example 3 - Difficult - Restrict Possible Usernames
 */
 
-let username = "JackOfAllTrades";
+//Example 3 - Higher Difficulty - Restrict Possible Usernames
+// Starts with a character
+// Ends with two or more digits 
+//      or ends with one or more characters, and zero or more digits
+
+let username = "Maal243";
+//let userCheck = /^[a-z]([0-9][0-9]+|[a-z]+\d*)$/i;
 let userCheck = /^[a-z]([0-9][0-9]+|[a-z]+\d*)$/i;
 let output = userCheck.test(username);
-console.log(output);
-/*
+console.log(output);/*
 
+/*
 ^ - beginning of pattern
 [a-z] - first character is a letter
 [0-9][0-9]+ - ends with two or more numbers
 | - or
-[a-z]+ - has one or more letters next
-\d* - and ends with zero or more numbers
-$ - end of input
-i - ignore case of input
+[a-z]+ - has one or more letters 
+\d* - and ends with a digit (zero or more times)
+$ - end of pattern
+i - ignore case 
 */
