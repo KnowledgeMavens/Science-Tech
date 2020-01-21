@@ -1,14 +1,14 @@
-// What is a regex? A regular expression allows you to search and/or replace numbers, strings, 
+// What is a regex? A regular expression allows you to search and/or replace numbers, strings
 //Examples of when would you use regex? Search/replace, creating usernames, user input. 
 
-/*
+
 //Example 1 - find a string
 let myString = "Hello, World!";
 let myRegex = /Hello/;
 let result = myRegex.test(myString); 
 console.log(result)
-*/
 
+/*
 //Example 2 - Positive and Negative Lookahead
 let sampleWord = "astronaut";
 let pwRegex = /^(?=\w{6})(?=\D+\d{2})/;
