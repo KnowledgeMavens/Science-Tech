@@ -1,49 +1,50 @@
-//What is a Data Structure
-
-//Easy: Use an Array to Store a Collection of Data
-let yourArray = ['one', 2, 'three', true, false, undefined, null]
-console.log(yourArray);
+//Examples Problems from FreeCodeCamp.org - Customized for sharing
+//What is a Data Structure - a list of objects or an array, or nouns
 /*
+//Easy: Use an Array to Store a Collection of Data
+let Array = ['name', 7, true, false, undefined, null]
+console.log(Array);
+
+
 //Medium: Combine Arrays with the Spread Operator
 
-function spreadOut() {
-  let fragment = ['to', 'code'];
-  let sentence = ['learning', ...fragment, 'is', 'fun'];
-  return sentence;
+function arrayOne() {
+  let segment = ['you', 'for'];
+  let statement = ['thank', ...segment, 'watching', 'data structures'];
+  return statement;
 }
-console.log(spreadOut());
+console.log(arrayOne());
 
-
+*/
 // Difficult: Check if Object has a Property
 
-let users = {
-  Alan: {
-    age: 27,
-    online: true
+let people = {
+  Tom: {
+    language: 'JavaScript',
+    available: true
   },
-  Jeff: {
-    age: 32,
-    online: true
+  Alice: {
+    language: 'Python',
+    available: true
   },
-  Sarah: {
-    age: 48,
-    online: true
+  Larry: {
+    language: 'Scala',
+    available: true
   },
-  Ryan: {
-    age: 19,
-    online: true
+  Melinda: {
+    language: 'golang',
+    available: true
   }
 };
 
-function isEveryoneHere(obj) {
+function availableHelp(property) {
 if (
-  obj.hasOwnProperty('Alan') &&
-  obj.hasOwnProperty('Jeff') &&
-  obj.hasOwnProperty('Sarah') &&
-  obj.hasOwnProperty('Ryan')
+  property.hasOwnProperty(Tom.language[JavaScript]) &&
+  property.hasOwnProperty('Alice') &&
+  property.hasOwnProperty('Larry') &&
+  property.hasOwnProperty('Melinda')
 ) return true; {
 return false;
 }
 }
-console.log(isEveryoneHere(users));
-*/
+console.log(availableHelp(people));
