@@ -1,0 +1,7 @@
+{
+    "terminal.integrated.shellArgs.osx": [
+        "--init-file",
+        "~/vscode.bash_profile",
+    ]
+    
+}
