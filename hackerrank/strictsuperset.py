@@ -17,3 +17,4 @@ if all(l) == 1:
     print(True)
 else:
     print(False)
+#test
