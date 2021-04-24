@@ -9,3 +9,4 @@ for i in rooms:
     else:
         b.discard(i)
 print(b.pop())
+#tst
